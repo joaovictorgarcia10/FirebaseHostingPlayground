@@ -12,9 +12,11 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home'),
+        title: const Text('Firebase Hosting Playground'),
       ),
-      body: Container(),
+      body: const Center(
+        child: Text("Welcome my friend! Your CI / CD is working well!"),
+      ),
     );
   }
 }

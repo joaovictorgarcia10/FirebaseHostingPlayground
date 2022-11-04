@@ -14,8 +14,11 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Firebase Hosting Playground'),
       ),
-      body: const Center(
-        child: Text("Welcome my friend! Your CI / CD is working well!"),
+      body: Center(
+        child: Text(
+          "Welcome my friend! Your CI / CD is working well!",
+          style: Theme.of(context).textTheme.headline1,
+        ),
       ),
     );
   }

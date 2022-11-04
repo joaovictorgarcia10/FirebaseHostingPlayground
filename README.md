@@ -1,16 +1,23 @@
-# firebase_hosting_playground
+# Firebase Hosting Playground
 
-A new Flutter project.
+## Step by step:
 
-## Getting Started
+- create your flutter project
+- put it in a Github repository
+- install the firebase cli
+- run ´firebase login´ to sync the cli with your Google account
+- run ´firebase init´ in your project root
+- select the Hosting feature and the others tha you'll use
+- create or use an existing project
 
-This project is a starting point for a Flutter application.
+And when asked, answer the following questions like this:
 
-A few resources to get you started if this is your first Flutter project:
+´
+? What do you want to use as your public directory? build/web
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+? Set up automatic builds and deploys with GitHub? Yes
+´
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Your Firebase Hosting will work.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Now, configure the Github Workflow Files like in this project, to your CI/CD work.

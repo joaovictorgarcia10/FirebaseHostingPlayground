@@ -7,7 +7,7 @@
 - install the firebase cli
 - run "firebase login" to sync the cli with your Google account
 - run "firebase init" in your project root
-- select the Hosting feature and the others tha you'll use
+- select the Hosting feature and the others that you'll use
 - create or use an existing project
 
 And when asked, answer the following questions like this:

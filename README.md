@@ -21,3 +21,5 @@ And when asked, answer the following questions like this:
 Your Firebase Hosting will work.
 
 Now, edit the Github Workflow Files like in this project, to your CI/CD work.
+
+Application available on -> https://hosting-playground-0310.web.app/#/

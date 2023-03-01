@@ -13,9 +13,9 @@
 And when asked, answer the following questions like this:
 
 
-- What do you want to use as your public directory? build/web
-- Configure as a single-page app (rewrite all urls to /index.html)? Yes
-- Set up automatic builds and deploys with GitHub? Yes
+- What do you want to use as your public directory? _build/web_
+- Configure as a single-page app (rewrite all urls to /index.html)? _Yes_
+- Set up automatic builds and deploys with GitHub? _Yes_
 
 
 Your Firebase Hosting will work.
